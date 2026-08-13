@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy — Cartographer</title>
+  <meta name="description" content="Cartographer privacy: local-first, no telemetry, no required accounts." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/logo-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img src="assets/logo-mark.svg" alt="" width="36" height="36" />
+      <span>CARTOGRAPHER</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="./docs/">Docs</a>
+      <a href="./install/">Install</a>
+      <a href="./languages/">Languages</a>
+      <a href="./architecture/">Architecture</a>
+      <a href="./privacy/" aria-current="page">Privacy</a>
+      <a class="btn ghost" href="https://github.com/theworker02/cartographer">GitHub</a>
+    </nav>
+  </header>
+  <main class="doc">
+    <h1>Privacy</h1>
+    <p>Cartographer is local-first by design.</p>
+    <ul>
+      <li>No telemetry, analytics, or phone-home</li>
+      <li>No required API keys or cloud account</li>
+      <li>Atlas data lives in <code>.cartographer/</code> on your machine</li>
+      <li>Git history is read locally when available</li>
+      <li>This website is a static GitHub Pages site — it does not process your code</li>
+    </ul>
+    <p>If you sponsor via GitHub Sponsors or thanks.dev, those platforms have their own privacy policies; Cartographer itself never sees payment data.</p>
+  </main>
+  <footer class="site-footer">
+    <img src="assets/logo-mark.svg" alt="" width="28" height="28" />
+    <div>
+      <p>© Cartographer · MIT · by <a href="https://github.com/theworker02">theworker02</a></p>
+      <p>
+        <a href="https://github.com/sponsors/theworker02">Sponsors</a>
+        ·
+        <a href="https://thanks.dev/u/gh/theworker02">thanks.dev</a>
+        ·
+        <a href="./privacy/">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

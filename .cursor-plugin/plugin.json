@@ -1,0 +1,27 @@
+{
+  "name": "cartographer",
+  "version": "0.2.0",
+  "description": "A navigation system for software architecture. Know where you are in the code.",
+  "author": {
+    "name": "theworker02"
+  },
+  "homepage": "https://theworker02.github.io/cartographer/",
+  "repository": "https://github.com/theworker02/cartographer",
+  "license": "MIT",
+  "keywords": [
+    "navigation",
+    "architecture",
+    "atlas",
+    "territories",
+    "code-intelligence",
+    "static-analysis",
+    "briefing"
+  ],
+  "logo": "assets/logo.svg",
+  "commands": "./commands",
+  "skills": "./skills",
+  "agents": "./agents",
+  "rules": "./rules",
+  "hooks": "./hooks/hooks.json",
+  "mcpServers": "mcp.json"
+}

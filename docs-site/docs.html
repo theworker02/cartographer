@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Docs — Cartographer</title>
+  <meta name="description" content="Cartographer documentation: Living Atlas Briefing, CLI commands, and Cursor plugin surfaces." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/logo-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img src="assets/logo-mark.svg" alt="" width="36" height="36" />
+      <span>CARTOGRAPHER</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="./docs/" aria-current="page">Docs</a>
+      <a href="./install/">Install</a>
+      <a href="./languages/">Languages</a>
+      <a href="./architecture/">Architecture</a>
+      <a href="./privacy/">Privacy</a>
+      <a class="btn ghost" href="https://github.com/theworker02/cartographer">GitHub</a>
+    </nav>
+  </header>
+  <main class="doc">
+    <h1>Documentation</h1>
+    <p>Cartographer is a navigation system for software architecture. It builds a local Atlas of your repository and answers: where am I, what flows where, and what haven’t I explored?</p>
+
+    <h2>Living Atlas Briefing</h2>
+    <p>The flagship output. After <code>cartographer index</code>, or anytime via <code>cartographer brief</code> / <code>whereami</code> / <code>tour</code>:</p>
+    <ul>
+      <li><strong>Mini Atlas</strong> — territory tree with symbol density</li>
+      <li><strong>YOU ARE HERE</strong> — breadcrumb + territory confidence</li>
+      <li><strong>Corridors</strong> — recurring architectural paths</li>
+      <li><strong>Hubs &amp; bridges</strong> — plain-language cut vertices</li>
+      <li><strong>Frontiers</strong> — fog-of-war exploration state</li>
+      <li><strong>Start here</strong> — first journey suggestion</li>
+    </ul>
+
+    <h2>Core commands</h2>
+    <pre><code>cartographer index
+cartographer brief [file] [line]
+cartographer whereami path/to/file.ts 42
+cartographer goto createOrder
+cartographer route handler service
+cartographer upstream createOrder
+cartographer downstream createOrder
+cartographer territories
+cartographer hubs
+cartographer unexplored
+cartographer tour
+cartographer doctor
+cartographer search "auth"</code></pre>
+
+    <h2>Cursor plugin</h2>
+    <p>Install as a Cursor plugin from this repository. Commands, skills, agent, and MCP tools expose the same Atlas facade — no duplicate logic.</p>
+    <div class="callout">
+      <p><strong>Marketplace status:</strong> Cursor Marketplace listing is pending Cursor approval. Use local / source install until then.</p>
+    </div>
+
+    <h2>Support</h2>
+    <p>
+      <a href="https://github.com/sponsors/theworker02">GitHub Sponsors</a> ·
+      <a href="https://thanks.dev/u/gh/theworker02">thanks.dev</a>
+    </p>
+  </main>
+  <footer class="site-footer">
+    <img src="assets/logo-mark.svg" alt="" width="28" height="28" />
+    <div>
+      <p>© Cartographer · MIT · by <a href="https://github.com/theworker02">theworker02</a></p>
+      <p>
+        <a href="https://github.com/sponsors/theworker02">Sponsors</a>
+        ·
+        <a href="https://thanks.dev/u/gh/theworker02">thanks.dev</a>
+        ·
+        <a href="./privacy/">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

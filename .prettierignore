@@ -1,0 +1,8 @@
+dist
+node_modules
+coverage
+.cartographer/atlas.db
+.cartographer/cache
+package-lock.json
+*.png
+*.jpg

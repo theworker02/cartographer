@@ -1,0 +1,24 @@
+# Cartographer repository configuration
+version = 1
+
+[index]
+exclude = [
+  "node_modules",
+  "target",
+  "dist",
+  "vendor",
+  "build",
+  ".git",
+  "coverage",
+  "__pycache__",
+  ".venv",
+  "venv"
+]
+include_vendored = false
+max_file_bytes = 1500000
+
+[exploration]
+enabled = true
+
+[git]
+history = true

@@ -1,0 +1,64 @@
+{
+  "name": "cartographer",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A navigation system for software architecture. Know where you are in the code.",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "theworker02"
+  },
+  "homepage": "https://theworker02.github.io/cartographer/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/cartographer.git"
+  },
+  "keywords": [
+    "cursor",
+    "cursor-plugin",
+    "developer-tools",
+    "code-navigation",
+    "code-intelligence",
+    "architecture",
+    "static-analysis",
+    "mcp",
+    "git"
+  ],
+  "bin": {
+    "cartographer": "./dist/cli/index.js",
+    "cartographer-mcp": "./dist/mcp/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "cli": "node dist/cli/index.js",
+    "mcp": "node dist/mcp/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "doctor": "node dist/cli/index.js doctor",
+    "validate:plugin": "node scripts/validate-plugin.mjs",
+    "bench": "node dist/cli/index.js index --bench",
+    "docs:build": "node scripts/build-docs.mjs",
+    "docs:preview": "npx --yes serve docs-site/dist -p 4173"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "commander": "^13.1.0",
+    "fast-glob": "^3.3.3",
+    "ignore": "^7.0.4",
+    "yaml": "^2.7.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}

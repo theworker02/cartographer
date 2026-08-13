@@ -1,0 +1,12 @@
+---
+description: Prefer Cartographer Atlas navigation before large exploratory edits
+alwaysApply: true
+---
+
+# Cartographer navigation
+
+When working in an unfamiliar part of this repository:
+
+1. Use Cartographer (`brief`, `whereami`, `goto`, `route`, MCP tools) to orient.
+2. Prefer existing corridors and hubs over inventing new architectural paths.
+3. Do not treat Cartographer as a code generator — it is a map layer.

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cartographer": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/dist/mcp/index.js"],
+      "env": {
+        "CARTOGRAPHER_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}

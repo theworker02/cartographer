@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cartographer — Know where you are in the code</title>
+  <meta name="description" content="A local-first navigation system for software architecture. Living Atlas Briefing maps any repo in ~15 seconds." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/logo-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img src="assets/logo-mark.svg" alt="" width="36" height="36" />
+      <span>CARTOGRAPHER</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="./docs/">Docs</a>
+      <a href="./install/">Install</a>
+      <a href="./languages/">Languages</a>
+      <a href="./architecture/">Architecture</a>
+      <a href="./privacy/">Privacy</a>
+      <a class="btn ghost" href="https://github.com/theworker02/cartographer">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-logo" src="assets/banner.svg" alt="Cartographer" />
+      <h1>CARTOGRAPHER</h1>
+      <p class="tagline">Know where you are in the code.</p>
+      <p class="lede">
+        A spatial navigation layer for software repositories — territories, corridors, hubs, and a
+        Living Atlas Briefing that orients you in ~15 seconds. Local-first. No telemetry.
+      </p>
+      <p class="status-note">
+        <strong>Cursor Marketplace:</strong> listing pending Cursor approval. Local plugin and CLI installs from source work today.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="./install/">Install</a>
+        <a class="btn" href="./docs/">Read the docs</a>
+        <a class="btn ghost" href="https://github.com/sponsors/theworker02">Sponsor</a>
+      </div>
+    </section>
+
+    <section class="shot">
+      <h2>The briefing</h2>
+      <p>Open a foreign repo. Run one command. See the map.</p>
+      <pre class="terminal" aria-label="Living Atlas Briefing example"><code>┌────────────────────────────────────────────────────────┐
+│  CARTOGRAPHER · LIVING ATLAS BRIEFING                  │
+│  checkout-service                                      │
+└────────────────────────────────────────────────────────┘
+
+Survey  142 files · 1,840 symbols · 3,102 edges
+Map     8 territories · 12 entries · coverage 12%
+
+▸ YOU ARE HERE
+  API › handlers › checkout.ts › function:createOrder
+  Territory: API (82% confidence)
+
+▸ MINI ATLAS
+  ├─ API          ████████░░░░  420  82%
+  ├─ Domain       ██████░░░░░░  310  77%
+  ├─ Data         █████░░░░░░░  280  74%
+  └─ Workers      ███░░░░░░░░░  120  68%
+
+▸ TOP CORRIDORS
+  → API → Domain → Data  ×18
+    Requests typically flow API → Domain → Data.
+
+▸ HUBS &amp; BRIDGES
+  [BRIDGE] OrderService
+           OrderService is a bridge between API ↔ Domain ↔ Data.
+
+▸ START HERE
+  Journey: Start at the edge
+  First:   POST /orders
+  Why:     Begin at http entry, then walk downstream.</code></pre>
+    </section>
+
+    <section class="features">
+      <article>
+        <h3>Living Atlas Briefing</h3>
+        <p>Mini atlas, YOU ARE HERE, corridors, hubs &amp; bridges, fog-of-war, and a start-here journey — one coherent view.</p>
+      </article>
+      <article>
+        <h3>Navigation, not codegen</h3>
+        <p>whereami, goto, route, upstream/downstream, territories, landmarks, journeys — a map layer for Cursor.</p>
+      </article>
+      <article>
+        <h3>Local-first Atlas</h3>
+        <p>Persistent SQLite atlas under <code>.cartographer/</code>. Your code never leaves the machine.</p>
+      </article>
+    </section>
+
+    <section class="sponsor" id="sponsor">
+      <h2>Support the atlas</h2>
+      <p>Cartographer is independent open source. Sponsorship keeps the map accurate and the tools sharp.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/sponsors/theworker02">GitHub Sponsors</a>
+        <a class="btn" href="https://thanks.dev/u/gh/theworker02">thanks.dev</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/logo-mark.svg" alt="" width="28" height="28" />
+    <div>
+      <p>© Cartographer · MIT · by <a href="https://github.com/theworker02">theworker02</a></p>
+      <p>
+        <a href="https://github.com/sponsors/theworker02">Sponsors</a>
+        ·
+        <a href="https://thanks.dev/u/gh/theworker02">thanks.dev</a>
+        ·
+        <a href="./privacy/">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

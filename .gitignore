@@ -1,0 +1,41 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Atlas runtime data (share landmarks/journeys selectively)
+.cartographer/atlas.db
+.cartographer/atlas.db-*
+.cartographer/cache/
+.cartographer/exploration.json
+.cartographer/*.tmp
+
+# Keep shareable annotations
+!.cartographer/config.toml
+!.cartographer/landmarks.json
+!.cartographer/journeys/
+!.cartographer/journeys/**
+
+# Build / tooling
+.vite/
+.turbo/
+tmp/
+*.sqlite
+*.sqlite-journal
+docs-site/dist/
+
+# OS / editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+**/.cartographer/atlas.db
+**/.cartographer/atlas.db-*
+**/.cartographer/exploration.json
+**/.cartographer/cache/

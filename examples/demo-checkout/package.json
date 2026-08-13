@@ -1,0 +1,7 @@
+{
+  "name": "demo-checkout",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Cartographer demo fixture — tiny checkout service for Atlas tests"
+}

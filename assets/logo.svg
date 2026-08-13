@@ -1,18 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Cartographer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a3a2f"/>
-      <stop offset="100%" stop-color="#0d1f1a"/>
-    </linearGradient>
-    <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="M8 0H0V8" fill="none" stroke="#2f5c4c" stroke-width="0.6" opacity="0.5"/>
-    </pattern>
-  </defs>
-  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
-  <rect width="128" height="128" rx="24" fill="url(#grid)" opacity="0.5"/>
-  <circle cx="64" cy="64" r="46" fill="none" stroke="#c8e6d8" stroke-width="1.5" opacity="0.3"/>
-  <circle cx="64" cy="64" r="30" fill="none" stroke="#7eb89a" stroke-width="1.2" opacity="0.55"/>
-  <path d="M84 42c-10-14-36-16-48 2-11 15-7 40 8 51 13 10 36 8 47-6" fill="none" stroke="#e8f5ef" stroke-width="5" stroke-linecap="round"/>
-  <path d="M64 28 L69 62 L64 100 L59 62 Z" fill="#d4a574"/>
-  <circle cx="64" cy="64" r="5" fill="#e8f5ef"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="Cartographer">
+  <rect width="128" height="128" rx="28" fill="#0e1c17"/>
+  <!-- Subtle coordinate grid -->
+  <g stroke="#1f3a30" stroke-width="0.75" opacity="0.9">
+    <path d="M0 32h128M0 64h128M0 96h128M32 0v128M64 0v128M96 0v128"/>
+  </g>
+  <!-- Survey rings -->
+  <circle cx="64" cy="64" r="46" stroke="#2f5c4c" stroke-width="1.5"/>
+  <circle cx="64" cy="64" r="31" stroke="#4a7d68" stroke-width="1.25" opacity="0.9"/>
+  <!-- Coordinate C -->
+  <path
+    d="M92.4 38.4A34.4 34.4 0 1 0 92.4 89.6"
+    stroke="#e7f1eb"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+  <!-- Crosshair -->
+  <path d="M64 47v34M47 64h34" stroke="#e7f1eb" stroke-width="2.25" stroke-linecap="round" opacity="0.92"/>
+  <circle cx="64" cy="64" r="4.5" fill="#e7f1eb"/>
+  <!-- North tick -->
+  <path d="M64 13l3.8 7.6H60.2L64 13z" fill="#c4a574"/>
 </svg>

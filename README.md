@@ -1,7 +1,10 @@
 # Cartographer
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Cartographer" width="560" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-light.svg" />
+    <img src="assets/banner.svg" alt="Cartographer" width="680" height="124" />
+  </picture>
 </p>
 
 <p align="center">

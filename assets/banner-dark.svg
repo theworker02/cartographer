@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699 128" fill="none" role="img" aria-label="Cartographer">
-  <rect width="699" height="128" rx="14" fill="#0e1c17"/>
-  
-  <g stroke="#1a3229" stroke-width="0.7" opacity="0.5">
+  <rect width="699" height="128" rx="14" fill="#080f0c"/>
+  <rect x="1" y="1" width="697" height="126" rx="13" stroke="#2f5c4c" stroke-width="1.5" fill="none"/>
+  <g stroke="#152820" stroke-width="0.7" opacity="0.5">
     <path d="M0 32h699M0 64h699M0 96h699"/>
   </g>
   <g transform="translate(40 28)">
     <g>
-    <rect width="72" height="72" rx="15.75" fill="#12261f"/>
+    <rect width="72" height="72" rx="15.75" fill="#0e1c17"/>
     <circle cx="36" cy="36" r="25.88" stroke="#2f5c4c" stroke-width="1.24" fill="none"/>
     <circle cx="36" cy="36" r="17.44" stroke="#4a7d68" stroke-width="1.13" fill="none" opacity="0.9"/>
     <path d="M51.98 21.6A19.35 19.35 0 1 0 51.98 50.4" stroke="#e7f1eb" stroke-width="3.66" stroke-linecap="round" fill="none"/>

@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699 128" fill="none" role="img" aria-label="Cartographer">
-  <rect width="699" height="128" rx="14" fill="#0e1c17"/>
-  
-  <g stroke="#1a3229" stroke-width="0.7" opacity="0.5">
+  <rect width="699" height="128" rx="14" fill="#f3f7f5"/>
+  <rect x="1" y="1" width="697" height="126" rx="13" stroke="#c5d9cf" stroke-width="1.5" fill="none"/>
+  <g stroke="#d5e4dc" stroke-width="0.7" opacity="0.5">
     <path d="M0 32h699M0 64h699M0 96h699"/>
   </g>
   <g transform="translate(40 28)">
     <g>
-    <rect width="72" height="72" rx="15.75" fill="#12261f"/>
+    <rect width="72" height="72" rx="15.75" fill="#e8f0eb"/>
     <circle cx="36" cy="36" r="25.88" stroke="#2f5c4c" stroke-width="1.24" fill="none"/>
-    <circle cx="36" cy="36" r="17.44" stroke="#4a7d68" stroke-width="1.13" fill="none" opacity="0.9"/>
-    <path d="M51.98 21.6A19.35 19.35 0 1 0 51.98 50.4" stroke="#e7f1eb" stroke-width="3.66" stroke-linecap="round" fill="none"/>
-    <path d="M36 26.44v19.13M26.44 36h19.13" stroke="#e7f1eb" stroke-width="1.52" stroke-linecap="round" fill="none" opacity="0.92"/>
-    <circle cx="36" cy="36" r="2.7" fill="#e7f1eb"/>
-    <path d="M36 7.31l2.36 4.73h-4.73L36 7.31z" fill="#c4a574"/>
+    <circle cx="36" cy="36" r="17.44" stroke="#1a3229" stroke-width="1.13" fill="none" opacity="0.9"/>
+    <path d="M51.98 21.6A19.35 19.35 0 1 0 51.98 50.4" stroke="#0e1c17" stroke-width="3.66" stroke-linecap="round" fill="none"/>
+    <path d="M36 26.44v19.13M26.44 36h19.13" stroke="#0e1c17" stroke-width="1.52" stroke-linecap="round" fill="none" opacity="0.92"/>
+    <circle cx="36" cy="36" r="2.7" fill="#0e1c17"/>
+    <path d="M36 7.31l2.36 4.73h-4.73L36 7.31z" fill="#a67c3d"/>
   </g>
   </g>
-  <g transform="translate(148 41.6) scale(1.4)" stroke="#e7f1eb" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <g transform="translate(148 41.6) scale(1.4)" stroke="#0e1c17" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M21 4C7 4 1 12 1 18C1 24 7 32 21 32M32 32L43 4L54 32M37.5 21H48.5M64 32V4H76C82 4 83.5 9 83.5 13C83.5 17 82 21 76 21H64M75 21L84 32M94 4H116M105 4V32M136 4C127.5 4 125 11 125 18C125 25 127.5 32 136 32C144.5 32 147 25 147 18C147 11 144.5 4 136 4M176 9C174 5.5 170.5 4 167 4C158.5 4 156 11 156 18C156 25 158.5 32 167 32C174 32 177.5 26 177.5 20.5H168M188 32V4H200C206 4 207.5 9 207.5 13C207.5 17 206 21 200 21H188M199 21L208 32M218 32L229 4L240 32M223.5 21H234.5M250 32V4H262C268 4 269.5 9 269.5 13.5C269.5 18 268 22 262 22H250M281 4V32M301 4V32M281 18H301M331 4H312V32H331M312 18H327M343 32V4H355C361 4 362.5 9 362.5 13C362.5 17 361 21 355 21H343M354 21L363 32"/>
   </g>
 </svg>

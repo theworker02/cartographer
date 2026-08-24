@@ -17,11 +17,11 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2f5c4c" alt="MIT" /></a>
   <a href="https://github.com/theworker02/cartographer/releases/latest"><img src="https://img.shields.io/github/v/release/theworker02/cartographer?color=1a3a2f&label=release" alt="Release" /></a>
   <a href="https://theworker02.github.io/cartographer/"><img src="https://img.shields.io/badge/docs-GitHub%20Pages-1a3a2f" alt="Docs" /></a>
-  <a href="https://cursor.directory/c/magnexis"><img src="https://img.shields.io/badge/Cursor-plugin-1a3a2f" alt="Cursor plugin" /></a>
+  <a href="https://cursor.directory/u/theworker02"><img src="https://img.shields.io/badge/Cursor-plugin-1a3a2f" alt="Cursor plugin" /></a>
 </p>
 
 <p align="center">
-  <a href="https://cursor.directory/c/magnexis">Cursor plugin</a>
+  <a href="https://cursor.directory/u/theworker02">Cursor plugin</a>
   ·
   <a href="https://theworker02.github.io/cartographer/">Product site</a>
   ·
@@ -41,7 +41,7 @@
 Cartographer ships as a **Cursor plugin** (slash commands, skill, agent, rules, MCP) plus a **local CLI** built from this repository.
 
 **See the plugin listing, screenshots, and install details here:**  
-[https://cursor.directory/c/magnexis](https://cursor.directory/c/magnexis)
+[https://cursor.directory/u/theworker02](https://cursor.directory/u/theworker02)
 
 That page is the best place to discover Cartographer in the Cursor ecosystem. This repository is the source of truth for the Atlas engine, CLI, docs, and releases ([GitHub Releases](https://github.com/theworker02/cartographer/releases)).
 
@@ -153,7 +153,7 @@ Install guide: [Install](https://theworker02.github.io/cartographer/install/)
 ## Cursor Installation
 
 Cartographer is a Cursor plugin. **Start here for the public listing and install path:**  
-[https://cursor.directory/c/magnexis](https://cursor.directory/c/magnexis)
+[https://cursor.directory/u/theworker02](https://cursor.directory/u/theworker02)
 
 Manifest in this repo: [`.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json). For local development from source, build `dist/` first so MCP and CLI entrypoints resolve (`npm install && npm run build` at the repo root).
 

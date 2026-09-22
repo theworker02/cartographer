@@ -30,15 +30,15 @@ This project is **proprietary**. Production use, redistribution, and commercial 
 
 <p align="center">
   <a href="https://cursor.directory/u/theworker02">Cursor plugin</a>
-  Â·
+  Ã‚Â·
   <a href="https://theworker02.github.io/cartographer/">Product site</a>
-  Â·
+  Ã‚Â·
   <a href="#quick-start">Quick Start</a>
-  Â·
+  Ã‚Â·
   <a href="#cursor-installation">Cursor</a>
-  Â·
+  Ã‚Â·
   <a href="#cli">CLI</a>
-  Â·
+  Ã‚Â·
   <a href="https://github.com/sponsors/theworker02">Sponsor</a>
 </p>
 
@@ -53,7 +53,7 @@ Cartographer ships as a **Cursor plugin** (slash commands, skill, agent, rules, 
 
 That page is the best place to discover Cartographer in the Cursor ecosystem. This repository is the source of truth for the Atlas engine, CLI, docs, and releases ([GitHub Releases](https://github.com/theworker02/cartographer/releases)).
 
-This project is **not an npm registry package**. There is no `npm install -g cartographer`. `package.json` exists for local Node scripts, dependencies, and bins â€” clone â†’ build â†’ use.
+This project is **not an npm registry package**. There is no `npm install -g cartographer`. `package.json` exists for local Node scripts, dependencies, and bins Ã¢â‚¬â€ clone Ã¢â€ â€™ build Ã¢â€ â€™ use.
 
 ---
 
@@ -61,44 +61,44 @@ This project is **not an npm registry package**. There is no `npm install -g car
 
 Open a foreign repository. Run one command. See the map in about fifteen seconds.
 
-The Living Atlas Briefing is Cartographerâ€™s flagship moment: a single high-signal orientation that answers *where am I*, *what kind of system is this*, *how do the pieces usually flow*, and *where should I start*. It is not a chat summary. It is a structured map assembled from the same Atlas that powers every other command.
+The Living Atlas Briefing is CartographerÃ¢â‚¬â„¢s flagship moment: a single high-signal orientation that answers *where am I*, *what kind of system is this*, *how do the pieces usually flow*, and *where should I start*. It is not a chat summary. It is a structured map assembled from the same Atlas that powers every other command.
 
 ```text
 $ cartographer whereami src/api/handlers.ts 12
 
-â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
-â”‚  CARTOGRAPHER Â· LIVING ATLAS BRIEFING                  â”‚
-â”‚  checkout-service                                      â”‚
-â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+Ã¢â€Å’Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Â
+Ã¢â€â€š  CARTOGRAPHER Ã‚Â· LIVING ATLAS BRIEFING                  Ã¢â€â€š
+Ã¢â€â€š  checkout-service                                      Ã¢â€â€š
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€Ëœ
 
-Survey  142 files Â· 1,840 symbols Â· 3,102 edges
-Map     8 territories Â· 12 entries Â· coverage 12%
+Survey  142 files Ã‚Â· 1,840 symbols Ã‚Â· 3,102 edges
+Map     8 territories Ã‚Â· 12 entries Ã‚Â· coverage 12%
 
-â–¸ YOU ARE HERE
-  API â€º handlers â€º checkout.ts â€º function:createOrder
+Ã¢â€“Â¸ YOU ARE HERE
+  API Ã¢â‚¬Âº handlers Ã¢â‚¬Âº checkout.ts Ã¢â‚¬Âº function:createOrder
   Territory: API (82% confidence)
 
-â–¸ MINI ATLAS
-  â”œâ”€ API          â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘  420  82%
-  â”œâ”€ Domain       â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘  310  77%
-  â”œâ”€ Data         â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘  280  74%
-  â””â”€ Workers      â–ˆâ–ˆâ–ˆâ–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘  120  68%
+Ã¢â€“Â¸ MINI ATLAS
+  Ã¢â€Å“Ã¢â€â‚¬ API          Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜  420  82%
+  Ã¢â€Å“Ã¢â€â‚¬ Domain       Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜  310  77%
+  Ã¢â€Å“Ã¢â€â‚¬ Data         Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜  280  74%
+  Ã¢â€â€Ã¢â€â‚¬ Workers      Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜Ã¢â€“â€˜  120  68%
 
-â–¸ TOP CORRIDORS
-  â†’ API â†’ Domain â†’ Data  Ã—18
-    Requests typically flow API â†’ Domain â†’ Data.
+Ã¢â€“Â¸ TOP CORRIDORS
+  Ã¢â€ â€™ API Ã¢â€ â€™ Domain Ã¢â€ â€™ Data  Ãƒâ€”18
+    Requests typically flow API Ã¢â€ â€™ Domain Ã¢â€ â€™ Data.
 
-â–¸ HUBS & BRIDGES
+Ã¢â€“Â¸ HUBS & BRIDGES
   [BRIDGE] OrderService
-           OrderService is a bridge between API â†” Domain â†” Data.
+           OrderService is a bridge between API Ã¢â€ â€ Domain Ã¢â€ â€ Data.
 
-â–¸ START HERE
+Ã¢â€“Â¸ START HERE
   Journey: Start at the edge
   First:   POST /orders
   Why:     Begin at http entry, then walk downstream.
 ```
 
-`cartographer brief`, `whereami`, `tour`, and a fresh `index` all share this briefing â€” the same hubs, corridors, territories, and fog-of-war that power navigation.
+`cartographer brief`, `whereami`, `tour`, and a fresh `index` all share this briefing Ã¢â‚¬â€ the same hubs, corridors, territories, and fog-of-war that power navigation.
 
 ```bash
 cartographer brief
@@ -112,22 +112,22 @@ cartographer whereami src/api/handlers.ts 12
 
 Modern codebases are large graphs pretending to be folders. You open a file and lose the architecture: which territory you are in, what usually flows where, which symbols are hubs, and what remains unexplored.
 
-Cartographer builds a persistent **Atlas** for a repository â€” a local SQLite map of symbols, relationships, territories, corridors, hubs, landmarks, journeys, and exploration state â€” then exposes that map through CLI, MCP, and Cursor surfaces.
+Cartographer builds a persistent **Atlas** for a repository Ã¢â‚¬â€ a local SQLite map of symbols, relationships, territories, corridors, hubs, landmarks, journeys, and exploration state Ã¢â‚¬â€ then exposes that map through CLI, MCP, and Cursor surfaces.
 
 | Without Cartographer | With Cartographer |
 |----------------------|-------------------|
-| â€œWhere should I start?â€ | Living Atlas Briefing + start-here journey |
-| â€œWhat is this file for?â€ | `whereami` breadcrumb + territory confidence |
-| â€œHow does A reach B?â€ | Corridor-aware `route` / `explain-route` |
-| â€œWhat depends on this?â€ | `upstream` / `downstream` neighborhoods |
-| â€œWhat have we not charted?â€ | Fog-of-war via `unexplored` |
+| Ã¢â‚¬Å“Where should I start?Ã¢â‚¬Â | Living Atlas Briefing + start-here journey |
+| Ã¢â‚¬Å“What is this file for?Ã¢â‚¬Â | `whereami` breadcrumb + territory confidence |
+| Ã¢â‚¬Å“How does A reach B?Ã¢â‚¬Â | Corridor-aware `route` / `explain-route` |
+| Ã¢â‚¬Å“What depends on this?Ã¢â‚¬Â | `upstream` / `downstream` neighborhoods |
+| Ã¢â‚¬Å“What have we not charted?Ã¢â‚¬Â | Fog-of-war via `unexplored` |
 
 **Design principles**
 
-- **Orientation before change** â€” know where you are before you edit.
-- **One Atlas facade** â€” CLI, MCP, and Cursor commands share the same core.
-- **Local-first** â€” no telemetry, no required cloud, no API keys for core navigation.
-- **Cartographic language** â€” territories, corridors, hubs, bridges, landmarks, journeys, fog.
+- **Orientation before change** Ã¢â‚¬â€ know where you are before you edit.
+- **One Atlas facade** Ã¢â‚¬â€ CLI, MCP, and Cursor commands share the same core.
+- **Local-first** Ã¢â‚¬â€ no telemetry, no required cloud, no API keys for core navigation.
+- **Cartographic language** Ã¢â‚¬â€ territories, corridors, hubs, bridges, landmarks, journeys, fog.
 
 ---
 
@@ -140,7 +140,7 @@ git clone https://github.com/theworker02/cartographer.git
 cd cartographer
 npm install
 npm run build
-npm link   # optional â€” adds `cartographer` to your PATH for local use
+npm link   # optional Ã¢â‚¬â€ adds `cartographer` to your PATH for local use
 ```
 
 Then, in any project you want to map:
@@ -169,12 +169,12 @@ What the plugin includes:
 
 | Surface | Location | Role |
 |---------|----------|------|
-| Slash commands | `commands/` | `brief`, `whereami`, `route`, `goto`, `tour`, `unexplored`, `index`, `doctor`, â€¦ |
+| Slash commands | `commands/` | `brief`, `whereami`, `route`, `goto`, `tour`, `unexplored`, `index`, `doctor`, Ã¢â‚¬Â¦ |
 | Skill | `skills/cartographer` | Teaches the agent Atlas-first orientation |
 | Agent | `agents/cartographer-navigator` | Navigator persona for unfamiliar repos |
 | Rules | `rules/cartographer.mdc` | Persistent cartographic guidance |
 | Hooks | `hooks/hooks.json` | Plugin hooks |
-| MCP | `mcp.json` â†’ `dist/mcp/index.js` | Same Atlas tools for agent tooling |
+| MCP | `mcp.json` Ã¢â€ â€™ `dist/mcp/index.js` | Same Atlas tools for agent tooling |
 
 Point Cursor at this checkout as a local plugin, open a project, run `cartographer index` (CLI or MCP), then ask for a briefing or use `/whereami`-style commands.
 
@@ -182,15 +182,15 @@ Point Cursor at this checkout as a local plugin, open a project, run `cartograph
 
 ## Atlas
 
-The **Atlas** is Cartographerâ€™s source of truth: a durable map under `.cartographer/` in the target repository.
+The **Atlas** is CartographerÃ¢â‚¬â„¢s source of truth: a durable map under `.cartographer/` in the target repository.
 
-- **`atlas.db`** â€” SQLite store of files, symbols, relationships, territories, and derived map layers
-- **`config.toml`** â€” optional per-repo configuration (created on demand)
-- **Landmarks / journeys / exploration** â€” JSON alongside the database for annotations and fog-of-war
+- **`atlas.db`** Ã¢â‚¬â€ SQLite store of files, symbols, relationships, territories, and derived map layers
+- **`config.toml`** Ã¢â‚¬â€ optional per-repo configuration (created on demand)
+- **Landmarks / journeys / exploration** Ã¢â‚¬â€ JSON alongside the database for annotations and fog-of-war
 
 Indexing is deterministic and incremental-friendly. Re-running `cartographer index` refreshes the map; landmark drift is checked so named places stay honest as code moves.
 
-Everything else â€” briefing, routes, hubs, MCP tools â€” reads this Atlas through a single `Atlas` facade. Surfaces do not invent a second graph.
+Everything else Ã¢â‚¬â€ briefing, routes, hubs, MCP tools Ã¢â‚¬â€ reads this Atlas through a single `Atlas` facade. Surfaces do not invent a second graph.
 
 ---
 
@@ -202,7 +202,7 @@ Everything else â€” briefing, routes, hubs, MCP tools â€” reads this A
 cartographer territories
 ```
 
-They appear in the Mini Atlas tree inside every Living Atlas Briefing, and they constrain how routes and corridors are explained: moving API â†’ Domain â†’ Data is a corridor, not a random hop list.
+They appear in the Mini Atlas tree inside every Living Atlas Briefing, and they constrain how routes and corridors are explained: moving API Ã¢â€ â€™ Domain Ã¢â€ â€™ Data is a corridor, not a random hop list.
 
 ---
 
@@ -223,7 +223,7 @@ Full mode returns the Living Atlas Briefing with a **YOU ARE HERE** breadcrumb (
 
 ## Routes
 
-**Routes** find paths between symbols (or `file:line` coordinates) with corridor awareness â€” preferring paths that follow how the system usually flows.
+**Routes** find paths between symbols (or `file:line` coordinates) with corridor awareness Ã¢â‚¬â€ preferring paths that follow how the system usually flows.
 
 ```bash
 cartographer route OrderController OrderRepository
@@ -243,16 +243,16 @@ cartographer upstream createOrder -d 3
 cartographer downstream OrderService -d 3
 ```
 
-- **Upstream** â€” who reaches this symbol?
-- **Downstream** â€” what does this symbol reach?
+- **Upstream** Ã¢â‚¬â€ who reaches this symbol?
+- **Downstream** Ã¢â‚¬â€ what does this symbol reach?
 
-Useful for blast-radius checks, onboarding (â€œwhat does this service touch?â€), and validating that a change stays inside the expected territory.
+Useful for blast-radius checks, onboarding (Ã¢â‚¬Å“what does this service touch?Ã¢â‚¬Â), and validating that a change stays inside the expected territory.
 
 ---
 
 ## Landmarks
 
-**Landmarks** are human-named places on the map â€” â€œcheckout entryâ€, â€œpayment gatewayâ€, â€œlegacy invoice pathâ€ â€” pinned to a file:line with a description.
+**Landmarks** are human-named places on the map Ã¢â‚¬â€ Ã¢â‚¬Å“checkout entryÃ¢â‚¬Â, Ã¢â‚¬Å“payment gatewayÃ¢â‚¬Â, Ã¢â‚¬Å“legacy invoice pathÃ¢â‚¬Â Ã¢â‚¬â€ pinned to a file:line with a description.
 
 ```bash
 cartographer landmarks
@@ -266,13 +266,13 @@ On re-index, Cartographer checks **landmark drift** so annotations do not silent
 
 ## Journeys
 
-**Journeys** are ordered stops for guided walks through the architecture â€” onboarding paths, â€œstart at the edgeâ€, or custom tours of a subsystem.
+**Journeys** are ordered stops for guided walks through the architecture Ã¢â‚¬â€ onboarding paths, Ã¢â‚¬Å“start at the edgeÃ¢â‚¬Â, or custom tours of a subsystem.
 
 ```bash
 cartographer journeys
 ```
 
-Generated journeys (for example from entry points) are marked so you can tell Atlas-suggested walks from hand-authored ones. The Living Atlas Briefingâ€™s **START HERE** suggestion is typically the first stop of a journey worth taking.
+Generated journeys (for example from entry points) are marked so you can tell Atlas-suggested walks from hand-authored ones. The Living Atlas BriefingÃ¢â‚¬â„¢s **START HERE** suggestion is typically the first stop of a journey worth taking.
 
 ---
 
@@ -285,7 +285,7 @@ cartographer tour
 cartographer tour "Start at the edge"
 ```
 
-You get orientation first, then numbered stops with purpose â€” ideal for pairing, agent handoffs, or your first hour in an unfamiliar service.
+You get orientation first, then numbered stops with purpose Ã¢â‚¬â€ ideal for pairing, agent handoffs, or your first hour in an unfamiliar service.
 
 ---
 
@@ -300,9 +300,9 @@ cartographer status
 
 Fog layers:
 
-- **Understood** â€” territories / areas you have engaged
-- **Frontier** â€” adjacent, high-value next places to chart
-- **Beyond** â€” still unmapped relative to current exploration
+- **Understood** Ã¢â‚¬â€ territories / areas you have engaged
+- **Frontier** Ã¢â‚¬â€ adjacent, high-value next places to chart
+- **Beyond** Ã¢â‚¬â€ still unmapped relative to current exploration
 
 Coverage appears in the briefing and in `status`. Exploration can be disabled in config if you want a pure static map without fog tracking.
 
@@ -318,7 +318,7 @@ cartographer history src/api/orders.ts
 cartographer history OrderService
 ```
 
-Branch and revision are recorded at index time and shown in `status`. History is read from the local repo only â€” nothing is uploaded. Toggle with `[git] history` in `.cartographer/config.toml`.
+Branch and revision are recorded at index time and shown in `status`. History is read from the local repo only Ã¢â‚¬â€ nothing is uploaded. Toggle with `[git] history` in `.cartographer/config.toml`.
 
 ---
 
@@ -437,7 +437,7 @@ Additional ignore patterns: `.cartographerignore` (gitignore-style lines). Defau
 
 ## Architecture
 
-One consolidated TypeScript project â€” not a constellation of micro-packages, and not an npm library product.
+One consolidated TypeScript project Ã¢â‚¬â€ not a constellation of micro-packages, and not an npm library product.
 
 ```text
 core/       Atlas facade, indexer, territories, routes, briefing, doctor
@@ -457,7 +457,7 @@ assets/     Banner, logos, mark
 1. **Adapters** extract symbols and relationships per language.
 2. **Indexer** builds / refreshes the SQLite Atlas in `.cartographer/`.
 3. **Core** infers territories, corridors, hubs/bridges, entry points; tracks exploration; checks landmark drift.
-4. **Atlas facade** powers CLI, MCP, and Cursor â€” one API, one map.
+4. **Atlas facade** powers CLI, MCP, and Cursor Ã¢â‚¬â€ one API, one map.
 
 More detail: [Architecture](https://theworker02.github.io/cartographer/architecture/).
 
@@ -470,7 +470,7 @@ Cartographer is designed for interactive orientation, not overnight whole-compan
 - Incremental indexing (`cartographer index --incremental`) limits work to changed files when possible.
 - Large / vendored trees are excluded by default; `.cartographerignore` keeps noise out of the Atlas.
 - File size caps avoid swallowing huge generated blobs into the graph.
-- Briefing, hubs, and corridors are derived from the indexed graph â€” cheap relative to a full re-survey.
+- Briefing, hubs, and corridors are derived from the indexed graph Ã¢â‚¬â€ cheap relative to a full re-survey.
 
 For rough timing on your machine: `npm run bench` (runs `cartographer index --bench` after build). Prefer Node 22/24 for `node:sqlite` ergonomics.
 
@@ -484,7 +484,7 @@ Cartographer is local-first by design.
 - No required API keys or cloud account for core navigation
 - Atlas data lives in `.cartographer/` on your machine
 - Git history is read locally when enabled
-- The [docs site](https://theworker02.github.io/cartographer/) is static GitHub Pages â€” it does not process your code
+- The [docs site](https://theworker02.github.io/cartographer/) is static GitHub Pages Ã¢â‚¬â€ it does not process your code
 
 Treat `.cartographer/` like any other project cache: it may mirror paths and symbol names from your codebase. Full statement: [Privacy](https://theworker02.github.io/cartographer/privacy/).
 
@@ -542,4 +542,8 @@ Sponsors and thanks.dev are external platforms with their own privacy policies; 
 
 ## License
 
-**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+**Source-available proprietary** â€” evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+
+## Acquisition diligence
+
+Buyer-facing diligence materials live in [docs/acquisition/](./docs/acquisition/). Commercial licensing contact path: [COMMERCIAL.md](./COMMERCIAL.md).
